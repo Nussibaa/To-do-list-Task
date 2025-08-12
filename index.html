@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>To DO List</h1>
+        <div class="Content">
+        Enter your new Task:
+        <input placeholder="Finish Task 1" id="task">
+        <table class="content">
+            <thead>
+                <tr class="Table Header">
+                    <th>Tasks</th><th>Delete</th><th>Edit</th>
+                </tr>
+            </thead>
+               <tbody id="tableBody">
+                   
+                   <tr class="rows">
+                    <td class="Taskk" id="task1">Do My Homework</td>
+                    <td id="delete"><button class="del">Delete<i class="fa-solid fa-trash"></i></button></td>
+                    <td id="edit"><button class="edit">Edit<i class="fa-solid fa-pen"></i></button></td>
+                   </tr>
+                   
+                   <tr class="rows">
+                    <td class="Taskk" id="task2">Finish Task1 </td>
+                    <td ><button class="del">Delete<i class="fa-solid fa-trash"></i></button></td>
+                    <td ><button class="edit">Edit<i class="fa-solid fa-pen"></i></button></td>
+                   </tr>
+                   
+                   <tr class="rows">
+                    <td class="Taskk" id="task3">Study Php</td>
+                    <td ><button class="del">Delete<i class="fa-solid fa-trash"></i></button></td>
+                    <td ><button class="edit">Edit<i class="fa-solid fa-pen"></i></button></td>
+                   </tr>
+            </tbody>
+        </table>
+        <script src="script.js"></script>
+        </div>
+    </body>
+</html>
