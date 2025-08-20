@@ -26,6 +26,10 @@ function editTask(row, button) {
         currentRow = row;
     } else if (currentRow === row) {
         let newTask = document.getElementById("task").value.trim();
+        if(newTask==""){
+            alert("Please enter your edited task");
+            return;
+        }
         if (checkIfExist(newTask)) {
             button.innerHTML = 'Edit <i class="fa-solid fa-pen"></i>';
             document.getElementById("task").value = "";
