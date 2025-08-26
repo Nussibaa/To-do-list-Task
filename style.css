@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.Content {
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;           
+    max-width: 30000px;     
+    min-height: 80vh;     
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #000;
+}
+
+
+#task {
+    width: 70%;
+    padding: 16px;
+    font-size: 20px;
+    border: 2px solid #333;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.Add {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 16px 24px;
+    font-size: 20px;
+    margin-left: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Add:hover {
+    background: #000;
+}
+
+
+table {
+    width: 100%;
+    margin-top: 25px;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+th {
+    background: #333;
+    color: white;
+    padding: 16px;
+    font-size: 22px;
+}
+
+td {
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+
+button.del, button.edit {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%; 
+}
+
+
+button.del {
+    background: #666;
+    color: white;
+}
+button.del:hover {
+    background: #000;
+}
+
+
+button.edit {
+    background: #999;
+    color: white;
+}
+button.edit:hover {
+    background: #555;
+}
