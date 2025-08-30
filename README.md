@@ -16,17 +16,6 @@ Mark tasks as completed (status flag)
 Fetch tasks with limit & offset (pagination)
 
 Data served in JSON format for easy frontend integration
-
-🛠️ Tech Stack
-
-Frontend: HTML, CSS, JavaScript
-
-Backend: PHP (PDO for database interaction)
-
-Database: MySQL
-
-Server: WAMP (Windows Apache MySQL PHP)
-
 📂 Project Structure
 Assignment1/
 │── conn.php          # Database connection
